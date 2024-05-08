@@ -1,0 +1,16 @@
+# ToDo
+- [x] Require HTTP, start server, listen;
+- [x] Add a request listener, send a response (res.end('content'));
+- [x] Install nodemon, change script ("start": "nodemon start"), this helps restarting server on changes saved;
+- [x] Install Express.js;
+- [x] Use Express start server + middleware (get express instance "const app = express();", create middleware "app.use(...)");
+- [x] Create a routing system;
+- [x] Link routing system to controllers;
+- [x] Implement controllers;
+- [x] Create database;
+- [x] Install ORM/DRM in project (install mongodb, mongoose, connect with connection string);
+- [x] Create Schemas (create and export schema in models folder, trigger schema generation on server connection);
+- [x] Implement CRUD operations in database;
+- [ ] Implement token auth
+- [ ] Deploy server
+- [ ] Code cleanup (redudant server response messages and code, etc.)
