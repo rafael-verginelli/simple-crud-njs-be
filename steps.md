@@ -11,8 +11,8 @@
 - [x] Install ORM/DRM in project (install mongodb, mongoose, connect with connection string);
 - [x] Create Schemas (create and export schema in models folder, trigger schema generation on server connection);
 - [x] Implement CRUD operations in database;
+- [x] Adapt Delete to use path variable instead of request body
 - [ ] Implement token auth
 - [ ] Deploy server
 - [ ] Code cleanup (redudant server response messages and code, etc.)
 - [ ] Make server accept JSON Content Type
-- [ ] Adapt Delete to use path variable instead of request body
