@@ -14,3 +14,5 @@
 - [ ] Implement token auth
 - [ ] Deploy server
 - [ ] Code cleanup (redudant server response messages and code, etc.)
+- [ ] Make server accept JSON Content Type
+- [ ] Adapt Delete to use path variable instead of request body

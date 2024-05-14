@@ -75,7 +75,7 @@ exports.createUser = (req, res, next) => {
 };
 
 exports.deleteUser = (req, res, next) => {
-  const userId = req.body.id;
+  const userId = req.params.userId;
   User.findByIdAndDelete(userId)
     .then((result) => {
       console.log(result);

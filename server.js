@@ -3,6 +3,8 @@ const server = express();
 const connectionString =
   require("./util/database/database").databaseConnectionString;
 
+const cors = require('cors');
+
 const simpleCrudRouter = require("./routes/crud-routes");
 
 const mongoose = require("mongoose");
@@ -10,6 +12,7 @@ const mongoose = require("mongoose");
 const bodyParser = require('body-parser');
 
 server.use(bodyParser.urlencoded({ extended: false }));
+server.use(cors());
 
 server.use(simpleCrudRouter);
 
